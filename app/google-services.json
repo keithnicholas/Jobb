@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "731679777948",
+    "firebase_url": "https://jobb-3eb73.firebaseio.com",
+    "project_id": "jobb-3eb73",
+    "storage_bucket": "jobb-3eb73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731679777948:android:96ff6bba71fa9ba3",
+        "android_client_info": {
+          "package_name": "com.example.alvin.jobb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731679777948-pv336fmhnrcr3tjskg3plohvdbjvpe7e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alvin.jobb",
+            "certificate_hash": "450815a75152262737ff462499f197f7cd0ff13a"
+          }
+        },
+        {
+          "client_id": "731679777948-18ubc340lpq8h7rlc3ifdt9d918gp764.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBllDK69XhPoDBIzttuka9Ky48vmevNdFU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731679777948-1im37jv7hu9ioec86bor81qpjchoa83h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
