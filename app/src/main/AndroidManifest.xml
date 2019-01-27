@@ -9,6 +9,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ChatBot"></activity>
+        <activity
+            android:name=".Appointment"
+            android:parentActivityName=".EnterInfo" />
+        <activity
+            android:name=".EnterInfo"
+            android:parentActivityName=".Companies" />
+        <activity
+            android:name=".Companies"
+            android:parentActivityName=".Survey" />
+        <activity
+            android:name=".Survey"
+            android:parentActivityName=".WhenCanYouStartWork" />
+        <activity
+            android:name=".WhenCanYouStartWork"
+            android:parentActivityName=".WhatFieldAreYouIn" />
+        <activity
+            android:name=".WhatFieldAreYouIn"
+            android:parentActivityName=".WhatAreYouLookingFor" />
+        <activity
+            android:name=".WhatAreYouLookingFor"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,7 +38,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ChatBot"></activity>
     </application>
 
 </manifest>

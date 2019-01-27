@@ -4,20 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background1"
-    tools:context=".MainActivity">
+    android:background="@drawable/background4"
+    tools:context=".WhenCanYouStartWork">
 
     <Button
         android:id="@+id/btnNextPage"
-        android:layout_width="338dp"
-        android:layout_height="78dp"
-        android:alpha="0.5"
-        android:shadowColor="@color/colorPrimary"
-        android:text="Get Started"
+        android:layout_width="395dp"
+        android:layout_height="120dp"
+        android:alpha="0"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.695" />
+        app:layout_constraintVertical_bias="0.291" />
 </android.support.constraint.ConstraintLayout>
