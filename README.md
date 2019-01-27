@@ -1,2 +1,2 @@
 # Jobb
-Conversational recruiting
+Conversational recruiting application
