@@ -17,7 +17,7 @@ public class WhenCanYouStartWork extends AppCompatActivity {
         btnNextPage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent nextPage = new Intent(WhenCanYouStartWork.this, Survey.class);
+                Intent nextPage = new Intent(WhenCanYouStartWork.this, ChatBot.class);
                 startActivity(nextPage);
             }
         });

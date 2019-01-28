@@ -29,6 +29,9 @@
             android:name=".WhatFieldAreYouIn"
             android:parentActivityName=".WhatAreYouLookingFor" />
         <activity
+            android:name=".Simuation"
+            android:parentActivityName=".Appointment"/>
+        <activity
             android:name=".WhatAreYouLookingFor"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
