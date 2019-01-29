@@ -1,5 +1,6 @@
 package com.example.alvin.jobb;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -56,7 +57,8 @@ public class Appointment extends AppCompatActivity {
         btnConfirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent nextPage = new Intent(Appointment.this, Simuation.class);
+                startActivity(nextPage);
             }
         });
     }

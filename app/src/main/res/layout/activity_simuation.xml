@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Simuation">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="434dp"
+        app:layout_constraintBottom_toTopOf="@+id/layout_chatbox"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/firstlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent">
+                <!-- beginning of first -->
+
+                <ImageView
+                    android:id="@+id/profile1"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/shiba"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/Jeff2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:text="John Doe"
+                    android:textSize="12sp"
+                    app:layout_constraintLeft_toRightOf="@+id/profile1"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/text_message_body"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/rounded_rectangle_orange"
+                    android:maxWidth="240dp"
+                    android:padding="8dp"
+                    android:text="Hi, my name is Jeff and I'm a hiring manager and analyst at Hootsuite. I've looked over your application and it's a pleasure to finally speak with you."
+                    android:textColor="#ffffff"
+                    app:layout_constraintLeft_toRightOf="@+id/profile1"
+                    app:layout_constraintTop_toBottomOf="@+id/Jeff2" />
+
+                <TextView
+                    android:id="@+id/text_message_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="11:40"
+                    android:textSize="10sp"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="@+id/text_message_body"
+                    app:layout_constraintLeft_toRightOf="@+id/text_message_body" />
+
+            </android.support.constraint.ConstraintLayout> <!-- end of first -->
+
+            <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/secondlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent">
+                <!-- beginning of first -->
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/shiba"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/name2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:text="John Doe"
+                    android:textSize="12sp"
+                    app:layout_constraintLeft_toLeftOf="@+id/image2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/body2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/rounded_rectangle_orange"
+                    android:maxWidth="240dp"
+                    android:padding="8dp"
+                    android:text="Hello! Thanks for giving me the opportunity to connect with you."
+                    android:textColor="#ffffff"
+                    app:layout_constraintRight_toLeftOf="@+id/image2"
+                    app:layout_constraintTop_toBottomOf="@+id/name2" />
+
+                <TextView
+                    android:id="@+id/time2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="11:40"
+                    android:textSize="10sp"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="@+id/body2"
+                    app:layout_constraintLeft_toRightOf="@+id/body2" />
+
+            </android.support.constraint.ConstraintLayout> <!-- end of second -->
+            <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/ThirdLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent">
+                <!-- beginning of first -->
+
+                <ImageView
+                    android:id="@+id/profile3"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/shiba"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/Jeff3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:text="John Doe"
+                    android:textSize="12sp"
+                    app:layout_constraintLeft_toRightOf="@+id/profile3"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/text_message_body3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/rounded_rectangle_orange"
+                    android:maxWidth="240dp"
+                    android:padding="8dp"
+                    android:text="I've prepared a few questions for you-- I hope you don't mind if I start the chat interview now. "
+                    android:textColor="#ffffff"
+                    app:layout_constraintLeft_toRightOf="@+id/profile3"
+                    app:layout_constraintTop_toBottomOf="@+id/Jeff3" />
+
+                <TextView
+                    android:id="@+id/text_message_time3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="11:40"
+                    android:textSize="10sp"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="@+id/text_message_body3"
+                    app:layout_constraintLeft_toRightOf="@+id/text_message_body3" />
+
+            </android.support.constraint.ConstraintLayout> <!-- end of third -->
+            <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/secondlayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent">
+                <!-- beginning of first -->
+
+                <ImageView
+                    android:id="@+id/image4"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/shiba"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/name4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:text="John Doe"
+                    android:textSize="12sp"
+                    app:layout_constraintLeft_toLeftOf="@+id/image4"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/body4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/rounded_rectangle_orange"
+                    android:maxWidth="240dp"
+                    android:padding="8dp"
+                    android:text="Sure thing!"
+                    android:textColor="#ffffff"
+                    app:layout_constraintRight_toLeftOf="@+id/image4"
+                    app:layout_constraintTop_toBottomOf="@+id/name4" />
+
+                <TextView
+                    android:id="@+id/time4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="11:40"
+                    android:textSize="10sp"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="@+id/body4"
+                    app:layout_constraintLeft_toRightOf="@+id/body4" />
+
+            </android.support.constraint.ConstraintLayout> <!-- end of 4 -->
+            <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/ThirdLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent">
+                <!-- beginning of first -->
+
+                <ImageView
+                    android:id="@+id/profile5"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/shiba"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/Jeff5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:text="John Doe"
+                    android:textSize="12sp"
+                    app:layout_constraintLeft_toRightOf="@+id/profile5"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/text_message_body5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/rounded_rectangle_orange"
+                    android:maxWidth="240dp"
+                    android:padding="8dp"
+                    android:text="What are some ways your peers would describe you?"
+                    android:textColor="#ffffff"
+                    app:layout_constraintLeft_toRightOf="@+id/profile5"
+                    app:layout_constraintTop_toBottomOf="@+id/Jeff5" />
+
+                <TextView
+                    android:id="@+id/text_message_time5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="11:40"
+                    android:textSize="10sp"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="@+id/text_message_body5"
+                    app:layout_constraintLeft_toRightOf="@+id/text_message_body5" />
+
+            </android.support.constraint.ConstraintLayout> <!-- end of 5 -->
+            <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/secondlayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                app:layout_constraintEnd_toEndOf="parent">
+                <!-- beginning of first -->
+
+                <ImageView
+                    android:id="@+id/image6"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/shiba"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/name6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="4dp"
+                    android:text="John Doe"
+                    android:textSize="12sp"
+                    app:layout_constraintLeft_toLeftOf="@+id/image6"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/body6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="129dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/rounded_rectangle_orange"
+                    android:maxWidth="240dp"
+                    android:padding="8dp"
+                    android:text="They would say that I'm motivated, nit-picky (but what they mean is detail-oriented), and dedicated. I like to give my full attention to whatever I'm working on."
+                    android:textColor="#ffffff"
+                    app:layout_constraintRight_toLeftOf="@+id/image6"
+                    app:layout_constraintTop_toBottomOf="@+id/name6" />
+
+                <TextView
+                    android:id="@+id/time5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="11:40"
+                    android:textSize="10sp"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="@+id/body6"
+                    app:layout_constraintLeft_toRightOf="@+id/body6" />
+
+            </android.support.constraint.ConstraintLayout> <!-- end of 6 -->
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/layout_chatbox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:minHeight="48dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <EditText
+            android:id="@+id/edittext_chatbox"
+            android:layout_width="376dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:hint="Enter message"
+            android:maxLines="6" />
+
+        <Button
+            android:id="@+id/button_chatbox_send"
+            android:layout_width="64dp"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="SEND"
+            android:textSize="14dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
